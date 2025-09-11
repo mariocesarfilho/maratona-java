@@ -10,6 +10,8 @@ public class CalculadoraTest {
 
         calc.soma();
         calc.subtracao();
+        //Metodo com argumentos
+        calc.multiplicacao(10,40);
 
         System.out.println(calc);
     }

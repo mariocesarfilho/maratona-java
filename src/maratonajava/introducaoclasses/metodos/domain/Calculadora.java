@@ -12,4 +12,9 @@ public class Calculadora {
     public void subtracao(){
         System.out.println(10-2);
     }
+
+    //Metodo com parametro
+    public void multiplicacao(int numero1, int numero2){
+        System.out.println(numero1 * numero2);
+    }
 }

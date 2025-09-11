@@ -9,12 +9,19 @@ public class Calculadora {
         System.out.println("Método de Soma!");
     }
 
-    public void subtracao(){
-        System.out.println(10-2);
+    public int subtracao(double numero1, double numero2){
+        //Se chama casting - conversao, ou seja, estou convertendo a entrada dos meus argumentos e na saida está saindo int
+        //assim como o tipo do meu metodo me exige
+        return (int) (numero1-numero2);
     }
 
     //Metodo com parametro
     public void multiplicacao(int numero1, int numero2){
         System.out.println(numero1 * numero2);
+    }
+
+    //Metodo com retorno
+    public double divisao(double numero1, double numero2){
+        return numero2 == 0 ? 0 : numero1/numero2;
     }
 }
